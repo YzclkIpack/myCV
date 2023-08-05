@@ -1,0 +1,35 @@
+body {
+    color: darkslategray;
+    background-color: darkseagreen;
+    font-family: "Courier New", Courier, monospace;
+}
+h1 {color: darkslategray; background-color: darkseagreen; font-family: "Courier New", Courier, monospace	;
+}
+h2 {color: darkslategray; font-family: "Courier New", Courier, monospace;
+}
+a {color: mistyrose;font-family:"Courier New", Courier, monospace;
+}
+
+.container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.text {
+    font-size: 70px;
+}
+
+div {
+    border: 1px cadetblue;
+    margin: 30px;
+    padding: 50px;
+    background-color: mistyrose; 
+    border-radius: 25px;
+}
